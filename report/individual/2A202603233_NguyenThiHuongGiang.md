@@ -37,8 +37,6 @@ Theo GUIDE, hai ca sau (`drive_005`, `drive_009`) có thể là bỏ sót vì xe
 | mean_iou_of_matches | 0.8647 | không sửa |
 | passed | false | không sửa |
 
-Kết quả đầy đủ: `outputs/annotation_evaluation.json` trong repo. Tôi không rework nhãn. F1 = 0.5946 thấp hơn ngưỡng 0.80 trong GUIDE; giảng viên đã giải thích gold có lỗi chỉ số và chấp nhận ngưỡng F1 > 0.5 (<ghi thời điểm và kênh thông báo>). mean_iou_of_matches = 0.8647 đạt ngưỡng 0.70. Chưa kết luận được nguyên nhân của FP/FN chỉ từ các số này.
-
 ## 5. Kết quả YOLO
 - Runtime, GPU/CPU, phiên bản Ultralytics và Torch: Google Colab, CPU (Intel Xeon @ 2.20GHz), Ultralytics 8.4.208, Python 3.13.18, Torch 2.14.1+cpu
 - Các tham số thay đổi so với notebook nếu có và lý do: không thay đổi tham số; chỉ điền REPO_URL.
